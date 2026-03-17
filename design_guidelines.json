@@ -1,0 +1,118 @@
+{
+  "design_strategy": {
+    "theme": "light",
+    "emotional_tone": "Professional, Compassionate, Precise, Trustworthy",
+    "archetype": "The 'Organic & Earthy' Wellness (Trust & Calm) mixed with 'Swiss Medical' (Precision)",
+    "visual_style": "Modern Clinical with Soft Human Touches. Glassmorphism for depth, high whitespace for clarity.",
+    "color_palette": {
+      "primary": {
+        "name": "Trust Navy",
+        "hex": "#001F3F",
+        "usage": "Headings, Primary Buttons, Strong Borders",
+        "tailwind_variable": "primary"
+      },
+      "secondary": {
+        "name": "Compassion Pink",
+        "hex": "#F9D1D9",
+        "usage": "Accents, Soft Backgrounds, Illustrations",
+        "tailwind_variable": "secondary"
+      },
+      "accent": {
+        "name": "Clinical Sky",
+        "hex": "#AED6F0",
+        "usage": "Icons, Highlight Highlights, Links",
+        "tailwind_variable": "accent"
+      },
+      "background": {
+        "name": "Sterile White",
+        "hex": "#FFFFFF",
+        "usage": "Main Backgrounds"
+      },
+      "surface": {
+        "name": "Off-White Mist",
+        "hex": "#F8FAFC",
+        "usage": "Section Backgrounds, Cards"
+      }
+    },
+    "typography": {
+      "headings": {
+        "family": "Plus Jakarta Sans",
+        "weights": ["600", "700", "800"],
+        "usage": "Main titles, Section headers. Tracking tight.",
+        "fallback": "sans-serif"
+      },
+      "body": {
+        "family": "DM Sans",
+        "weights": ["400", "500"],
+        "usage": "Paragraphs, UI text, Form labels",
+        "fallback": "sans-serif"
+      }
+    },
+    "spacing": {
+      "scale": "Generous. 2x standard Tailwind spacing.",
+      "container_padding": "p-8 md:p-12",
+      "section_gap": "gap-12 md:gap-24"
+    }
+  },
+  "component_guidelines": {
+    "buttons": {
+      "style": "Pill-shaped or Rounded-md",
+      "primary_class": "bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg hover:shadow-xl transition-all duration-300",
+      "secondary_class": "bg-secondary text-secondary-foreground hover:bg-secondary/80"
+    },
+    "cards": {
+      "style": "Glassmorphism Lite",
+      "classes": "bg-white/70 backdrop-blur-md border border-white/20 shadow-sm hover:shadow-md transition-all duration-300 rounded-2xl"
+    },
+    "inputs": {
+      "style": "Clean & Airy",
+      "classes": "h-12 bg-white/50 border-gray-200 focus:border-primary focus:ring-primary/20 rounded-lg"
+    }
+  },
+  "layout_strategies": {
+    "hero": "Asymmetrical Split. Left: Strong Value Prop. Right: Emotional Imagery (Doctor/Patient interaction) with floating glass cards.",
+    "facilities": "Bento Grid. Main facility (Ultrasound) takes prominence. X-ray and Consultancy as supporting squares.",
+    "contact": "Clean Form on White Card floating over a soft map or abstract medical background.",
+    "footer": "Minimalist multi-column. Dark Navy background for contrast."
+  },
+  "image_assets": {
+    "hero_doctor": {
+      "url": "https://images.unsplash.com/photo-1753487050317-919a2b26a6ed?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwzfHxmZW1hbGUlMjBkb2N0b3IlMjBjb25zdWx0YXRpb24lMjBwYXRpZW50JTIwZnJpZW5kbHl8ZW58MHx8fHwxNzczNzYxMjUyfDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Dr. Sanchita consulting a patient with a warm smile",
+      "category": "Hero"
+    },
+    "facility_ultrasound": {
+      "url": "https://images.unsplash.com/photo-1664902265139-934219cee42f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBtZWRpY2FsJTIwdWx0cmFzb3VuZCUyMG1hY2hpbmUlMjBjbGluaWN8ZW58MHx8fHwxNzczNzYxMjUxfDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Modern high-tech ultrasound machine",
+      "category": "Facilities"
+    },
+    "clinic_waiting_area": {
+      "url": "https://images.unsplash.com/photo-1759987383760-327efaf5522a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTV8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBtZWRpY2FsJTIwY2xpbmljJTIwcmVjZXB0aW9uJTIwd2FpdGluZyUyMGFyZWElMjBjbGVhbnxlbnwwfHx8fDE3NzM3NjEyNTN8MA&ixlib=rb-4.1.0&q=85",
+      "alt": "Sunlit, clean, and welcoming waiting area",
+      "category": "Location/About"
+    },
+    "abstract_medical": {
+      "url": "https://images.unsplash.com/photo-1764885518098-781b23d50e7f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHw0fHxkaWdpdGFsJTIweHJheSUyMG1hY2hpbmUlMjBtb2Rlcm4lMjBob3NwaXRhbHxlbnwwfHx8fDE3NzM3NjEyNTF8MA&ixlib=rb-4.1.0&q=85",
+      "alt": "Modern medical building architecture",
+      "category": "Background/Texture"
+    }
+  },
+  "implementation_steps": [
+    "Install 'lucide-react' for icons (Stethoscope, Activity, Calendar, MapPin).",
+    "Configure Tailwind colors in `tailwind.config.js` to match the Trust Navy and Compassion Pink palette.",
+    "Update `index.css` to import 'Plus Jakarta Sans' and 'DM Sans' from Google Fonts.",
+    "Create a `Navbar` component with a 'Book Appointment' pill button.",
+    "Develop the `Hero` section using the Split layout strategy.",
+    "Build the `Facilities` section using the Bento Grid layout.",
+    "Implement the `ContactForm` using shadcn/ui components (Input, Textarea, Button) styled with the new palette.",
+    "Assemble the `Home` page integrating all sections."
+  ],
+  "universal_guidelines": [
+    "Use 'sonner' for toast notifications (e.g., form submission success).",
+    "Ensure all interactive elements have `data-testid` attributes.",
+    "No generic full-screen gradients. Use subtle mesh gradients or noise overlays if texture is needed.",
+    "Do not use default shadcn card styles; override with the Glassmorphism approach defined above.",
+    "Maintain high contrast text for accessibility (White text on Navy, Navy text on Pink).",
+    "Micro-animations on scroll (fade-up) using 'framer-motion' (if available) or CSS transitions."
+  ]
+}
