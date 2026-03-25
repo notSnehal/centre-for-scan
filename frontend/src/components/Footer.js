@@ -13,9 +13,11 @@ const Footer = () => {
           {/* About */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center">
-                <span className="text-primary font-heading font-bold">CS</span>
-              </div>
+              <img
+                src="/logo.png"
+                alt="Centre for Scan Logo"
+                className="w-10 h-10 object-contain"
+              />
               <div>
                 <div className="font-heading font-bold text-lg">Centre for Scan</div>
                 <div className="text-xs text-white/80">by Dr. Sanchita Saha</div>

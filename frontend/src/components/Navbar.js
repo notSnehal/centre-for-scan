@@ -39,11 +39,11 @@ const Navbar = () => {
             className="flex items-center space-x-3 cursor-pointer"
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
-            <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center">
-              <span className="text-primary font-heading font-bold text-xl">
-                CS
-              </span>
-            </div>
+            <img
+              src="/logo.png"
+              alt="Centre for Scan Logo"
+              className="w-12 h-12 object-contain"
+            />
             <div className="hidden md:block">
               <div className="font-heading font-bold text-lg text-primary">
                 Centre for Scan
