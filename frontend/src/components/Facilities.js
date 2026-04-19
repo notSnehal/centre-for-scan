@@ -38,7 +38,7 @@ const Facilities = () => {
     <section
       id="facilities"
       data-testid="facilities-section"
-      className="py-16 lg:py-24 bg-gradient-to-b from-white to-accent/5"
+      className="py-16 lg:py-24 bg-gradient-to-b from-white to-blue-50"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Section Header */}

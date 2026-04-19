@@ -5,12 +5,12 @@ const Location = () => {
     {
       icon: MapPin,
       title: "Location",
-      content: "123 Healthcare Avenue, Medical District, Your City - 123456",
+      content: "C211 Second Floor, M3M Urbana Office Block, Sector-67, Gurgaon",
     },
     {
       icon: Clock,
       title: "Hours",
-      content: "Mon - Sat: 9:00 AM - 8:00 PM\nSun: 10:00 AM - 5:00 PM",
+      content: "Monday - Saturday\nMorning: On Appointment\nEvening: 4:00 PM - 8:00 PM\n\nSunday\n10:00 AM - 2:00 PM",
     },
     {
       icon: Phone,
@@ -28,7 +28,7 @@ const Location = () => {
     <section
       id="location"
       data-testid="location-section"
-      className="py-16 lg:py-24 bg-gradient-to-b from-accent/5 to-white"
+      className="py-16 lg:py-24 bg-gradient-to-b from-blue-50 to-white"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Section Header */}
@@ -53,8 +53,8 @@ const Location = () => {
                   className="glass-card rounded-2xl p-6 hover:shadow-lg transition-all duration-300 group"
                 >
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                      <Icon className="w-6 h-6 text-primary" />
+                    <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                      <Icon className="w-6 h-6 text-secondary" />
                     </div>
                     <div>
                       <h3 className="font-heading font-semibold text-lg text-primary mb-2">
@@ -73,7 +73,7 @@ const Location = () => {
           {/* Map Placeholder */}
           <div className="animate-fade-up delay-200">
             <div className="glass-card rounded-3xl overflow-hidden shadow-xl h-full min-h-[400px]">
-              <div className="relative w-full h-full bg-gradient-to-br from-accent/20 to-secondary/20 flex items-center justify-center">
+              <div className="relative w-full h-full bg-gradient-to-br from-blue-100 to-pink-100 flex items-center justify-center">
                 <div className="text-center space-y-4 p-8">
                   <MapPin className="w-16 h-16 text-primary mx-auto" />
                   <p className="font-heading font-semibold text-xl text-primary">

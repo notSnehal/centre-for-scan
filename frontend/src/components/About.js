@@ -40,14 +40,14 @@ const About = () => {
                 alt="Sunlit, clean, and welcoming waiting area"
                 className="w-full h-[500px] object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-secondary/20"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-100/50 to-pink-100/50"></div>
             </div>
 
             {/* Floating Badge */}
             <div className="absolute -bottom-6 -right-6 glass-card rounded-2xl p-6 shadow-xl">
               <div className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center">
-                  <Heart className="w-6 h-6 text-primary" />
+                <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center">
+                  <Heart className="w-6 h-6 text-secondary" />
                 </div>
                 <div>
                   <p className="font-heading font-bold text-lg text-primary">
@@ -62,7 +62,7 @@ const About = () => {
           {/* Right: Content */}
           <div className="space-y-8 animate-fade-up delay-200">
             <div>
-              <span className="px-4 py-2 bg-secondary/30 text-primary rounded-full text-sm font-medium">
+              <span className="px-4 py-2 bg-pink-100 text-primary rounded-full text-sm font-medium">
                 About Us
               </span>
             </div>

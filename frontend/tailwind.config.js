@@ -13,16 +13,16 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#001F3F",
+          DEFAULT: "#2E86DE",
           foreground: "#FFFFFF",
         },
         secondary: {
-          DEFAULT: "#F9D1D9",
-          foreground: "#001F3F",
+          DEFAULT: "#EC4899",
+          foreground: "#FFFFFF",
         },
         accent: {
-          DEFAULT: "#AED6F0",
-          foreground: "#001F3F",
+          DEFAULT: "#60A5FA",
+          foreground: "#FFFFFF",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",

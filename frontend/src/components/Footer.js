@@ -91,7 +91,7 @@ const Footer = () => {
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-white/80">
-                  123 Healthcare Avenue, Medical District
+                  C211 Second Floor, M3M Urbana Office Block, Sector-67, Gurgaon
                 </span>
               </li>
               <li className="flex items-start space-x-3">

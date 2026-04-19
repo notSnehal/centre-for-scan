@@ -12,14 +12,14 @@ const Hero = () => {
   return (
     <section
       data-testid="hero-section"
-      className="relative min-h-screen flex items-center pt-20 bg-gradient-to-br from-white via-accent/5 to-secondary/10"
+      className="relative min-h-screen flex items-center pt-20 bg-gradient-to-br from-white via-blue-50 to-pink-50"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-16 lg:py-24">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left: Text Content */}
           <div className="space-y-8 animate-fade-up">
-            <div className="inline-block">
-              <span className="px-4 py-2 bg-secondary/30 text-primary rounded-full text-sm font-medium">
+              <div className="inline-block">
+              <span className="px-4 py-2 bg-pink-100 text-primary rounded-full text-sm font-medium">
                 Trusted Diagnostic Centre
               </span>
             </div>
@@ -79,8 +79,8 @@ const Hero = () => {
           <div className="relative animate-fade-up delay-200">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1753487050317-919a2b26a6ed?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwzfHxmZW1hbGUlMjBkb2N0b3IlMjBjb25zdWx0YXRpb24lMjBwYXRpZW50JTIwZnJpZW5kbHl8ZW58MHx8fHwxNzczNzYxMjUyfDA&ixlib=rb-4.1.0&q=85"
-                alt="Dr. Sanchita consulting a patient with a warm smile"
+                src="/dr-sanchita.jpg"
+                alt="Dr. Sanchita Saha - Expert Diagnostician"
                 className="w-full h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
