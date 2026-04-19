@@ -77,13 +77,12 @@ const Hero = () => {
 
           {/* Right: Image with Floating Cards */}
           <div className="relative animate-fade-up delay-200">
-            <div className="relative rounded-3xl overflow-hidden shadow-2xl">
+            <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-gradient-to-br from-blue-50 to-pink-50">
               <img
                 src="/dr-sanchita.jpg"
                 alt="Dr. Sanchita Saha - Expert Diagnostician"
-                className="w-full h-[500px] object-cover"
+                className="w-full h-[500px] object-contain"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
             </div>
 
             {/* Floating Card */}
