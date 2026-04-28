@@ -36,11 +36,11 @@ const About = () => {
           <div className="relative animate-fade-up">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1759987383760-327efaf5522a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTV8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBtZWRpY2FsJTIwY2xpbmljJTIwcmVjZXB0aW9uJTIwd2FpdGluZyUyMGFyZWElMjBjbGVhbnxlbnwwfHx8fDE3NzM3NjEyNTN8MA&ixlib=rb-4.1.0&q=85"
-                alt="Sunlit, clean, and welcoming waiting area"
+                src="/clinic-reception.jpg"
+                alt="Centre for Scan Reception and Waiting Area"
                 className="w-full h-[500px] object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-100/50 to-pink-100/50"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-100/30 to-pink-100/30"></div>
             </div>
 
             {/* Floating Badge */}

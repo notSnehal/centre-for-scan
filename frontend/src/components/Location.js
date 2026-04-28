@@ -15,7 +15,7 @@ const Location = () => {
     {
       icon: Phone,
       title: "Phone",
-      content: "+91 1234567890",
+      content: "+91 9871458282",
     },
     {
       icon: Mail,
